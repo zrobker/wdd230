@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@700&display=swap');
+
+/* everything */
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2em; 
+}
+
+/* hearder and navigation */
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.headings {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* align-content: center;
+    justify-content: center; */
+}
+.date {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    text-align: center;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    float: right;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    
+
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+    --d: 75%;
+}
+nav ul {
+    background-color: #E5DDDC; 
+}
+
+nav ul li a {
+    
+	display: block;
+	color: black;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+
+/* body and main */
+
+body {
+    font-family: "Helvetica", sans-serif;
+    padding: 30px 0px;
+    margin: 0;
+    background-color: #FF695C;  
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr;
+    margin: 0px -30px;
+}
+
+.box {
+    background-color: #E5DDDC;
+    margin: 10px;
+}
+
+h3 {
+    color: black;
+}
+
+.headingbox {
+    background-color: white;
+    padding: 1%;
+}
+
+.notsmall {
+    display: none;
+    background-color: #E5DDDC;
+    margin: 10px;
+}
+
+.onlylarge {
+    display: none;
+    background-color: #E5DDDC;
+    margin: 10px;
+}
+
+/* Call to Action Section */
+
+#calltoaction {
+    position: relative;
+}
+
+.callimg { 
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.welcome {
+    font-size: 1.2em;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    border-radius: 2em;
+    top: 2%;
+    left: 10%;
+    right: 10%;
+}
+
+.join {
+    font-size: 1rem;
+    position: absolute;
+    background-color: #FF695C;
+    color: black;
+    padding: 15px 5px;
+    border-radius: 2em;
+    left: 20%;
+    bottom: 1%;
+    right: 20%;
+}
+
+/* Event Section */
+
+#event {
+    padding: 2em;
+}
+
+/* Weather Section  */
+
+#weather {
+    padding: 2em;
+    position: relative;
+}
+
+.weatherimg {
+    max-width: 40%;
+    max-height: 40%;
+    /* object-fit: ; */
+    position: absolute;
+    left: 5%;
+    top: 40%;
+
+}
+
+.temp {
+    position: absolute;
+    left: 55%;
+    bottom: 35%;
+    font-size: 2rem;
+}
+
+.type {
+    position: absolute;
+    left: 45%;
+    bottom: 20%;
+    font-size: 1.5rem;
+
+}
+
+/* Spotlight Section  */
+
+.spotlights {
+    background-color: #FF695C;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+}
+
+#spotlight1 {
+    position: relative;
+    background-color: white;
+    grid-row: 1/2;
+    display: grid;
+    padding: 0 10px;
+
+}
+
+#spotlight2 {
+    position: relative;
+    background-color: white;
+    display: grid;
+    padding: 0 10px;
+}
+
+#spotlight3 {
+    position: relative;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.spotlightimg {
+    position: absolute;
+    max-width: 40%;
+    max-height: 40%;
+    left: 35%;
+    top: 15%;
+}
+
+.spotlightinfo {
+    margin-bottom: -70px;
+}
+
+.contactinfo {
+    border: black;
+    border-top-style: solid;
+    margin: 20px;
+    font-size: small;
+}
+
+/* Releases Section */
+
+#newreleases {
+    display: grid;
+    place-content: center;
+    padding: 0 2em;
+}
+
+/* Join Section */
+
+#join {
+    position: relative;
+    display: grid;
+    font-size: large;
+    padding: 0 2em;
+    padding: 40px;
+}
+
+.jointext {
+    margin-top: 20%;
+}
+
+.join2 {
+    font-size: 2rem;
+    position: absolute;
+    background-color: #FF695C;
+    color: black;
+    padding: 15px 55px;
+    border-radius: 2em;
+    left: 5%;
+    top: 1%;
+    right: 5%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #E5DDDC;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+}
+#info {
+    text-align: right;
+    grid-row: 1/2;
+    border-bottom: black;
+    border-width: 1em;
+}
