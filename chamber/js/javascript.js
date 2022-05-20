@@ -1,7 +1,7 @@
 window.onload = get_year();
 window.onload = get_date();
 window.onload = get_day_month_year();
-window.onload = banner_display();
+
 
 function get_date() {
     var LastModif = new Date(document.lastModified);
