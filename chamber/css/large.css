@@ -81,6 +81,11 @@
     #spotlight3 {
         display: grid;
     }
+
+    .weatherimg {
+        max-width: 60%;
+    }
+
     
     /* Join Section */
 
@@ -107,6 +112,8 @@
         top: 5%;
         right: 10%;
     }
-
+    .title {
+        font-size: 1.1em;
+    }
 
 }

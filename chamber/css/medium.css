@@ -6,6 +6,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr .85fr 1fr;
     }
+    
     #calltoaction {
         grid-row: 1/2;
         grid-column: 1/4;
@@ -58,29 +59,8 @@
     }
 
     
-
-    .weatherimg {
-        max-width: 50%;
-        height: 100px;
-        left: 30%;
-        right: 30%;
-        top: 32%;
+    .title {
+        padding-top: 2px;
+        font-size: 1em;
     }
-    
-    .temp {
-        left: 25%;
-        right: 25%;
-        bottom: 22%;
-        font-size: 2rem;
-        margin: 5px 0px;
-    }
-    
-    .type {
-        left: 10%;
-        right: 10%;
-        bottom: 8%;
-        font-size: 1.4rem;
-        margin: 5px 0px;
-    }
-
 }
