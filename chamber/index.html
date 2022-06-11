@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site Plan Hartsville Chamber of Commerce for Zach Robker in WDD 230: Web Frontend 
     Development at Brigham Young University - Idaho">
-    <title>Hartsville Chamber of Commerce | Site Plan Home</title>
+    <title>Hartsville Chamber of Commerce | Site Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -23,13 +23,13 @@
         </figure>
         <section class="title">
             <H1>Hartsville</H1>
-            <h2>Chamber of Commerce</h2>
+            <h1>Chamber of Commerce</h1>
         </section>  
     </header>
     <nav>       
         <ul class="navigation">
         <li> <button onclick="toggleMenu()"> Menu</button></li>
-        <li><a href="" >Discover</a></li>
+        <li><a href="discover.html" >Discover</a></li>
         <li><a href="">Directory</a></li>
         <li><a href="">Join</a></li>
         <li><a href="">Contact</a></li>
@@ -38,14 +38,21 @@
     <section class="date"><h2><span id="headerdate">date</span></h2></section>
     
     <main>
-        <div id="calltoaction" class="box">
-            <picture class="heroimage">
-                <source srcset= "images/heromedium.jpg" media="(min-width:500px) and (max-width: 799px)">
-                    <source srcset="images/herolarge.jpg" media="(min-width:800px)">
-                <img class="callimg" src="images/herosmall.jpg" alt="Photograph of Hartville at night">
-            </picture>
-            <h3 class="welcome">Welcome to Hartsville</h3>
-            <a href=""><h3 class="join">Join the Chamber</h3></a>
+        <div id="calltoaction"  class="container">
+            <h3 class="overlay" class="headingbox" >Welcome to Hartsville</h3>
+            <img  class="callimg" src="images/Hartsville.jpg" alt="Photograph of Hartville at night">
+            <div class="overlay"><a href=""><h3 class="button">Join the Chamber</h3></a></div>
+            
+           
+            
+            <!-- <picture class="heroimage">
+                <source srcset= "images/Hartsville.jpg" media="(min-width:500px) and (max-width: 799px)">
+                    <source srcset="images/Hartsville.jpg" media="(min-width:800px)">
+                
+            </picture> -->
+            
+            
+            
         </div>
         <div id="event" class="box">
             <div class="headingbox">
@@ -67,8 +74,8 @@
             </div>
         </div>
         <div id="join" class="notsmall" >
-            <a href=""><h3 class="join2">Join Us!</h3></a>
-            <p class="jointext">Learn more about the Hartsville chamber of commerce and how it could benefit you and your organization!</p>
+            <a href=""><h3 class="button">Join Us!</h3></a>
+            <p class="box">Learn more about the Hartsville chamber of commerce and how it could benefit you and your organization!</p>
         </div>
         <div id="newreleases" class="box">
             <div class="headingbox">
@@ -86,7 +93,7 @@
             </p>
         </div>
         <section class="spotlights">
-            <div id="spotlight1" class="box">
+            <div class="box">
                 <h3>AMC Theatre</h3>
                 <img class="spotlightimg" src="images/movie.jpg" alt="icon of movie film">
                 <div class="spotlightinfo">
@@ -108,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div id="spotlight3" class="onlylarge">
+            <div id="spotlight3" class="onlylarge" class="box">
                 <h3>Lumber and Barns</h3>
                 <img class="spotlightimg" src="images/shed.png" alt="icon of shed">
                 <div class="spotlightinfo">

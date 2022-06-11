@@ -22,6 +22,7 @@ header figure.logo {
 }
 
 .title {
+    position: relative;
     /* width: 80%; */
     font-size: .8em;
 }
@@ -51,6 +52,7 @@ header figure.logo {
     list-style: none;
     text-align: center;
     padding: 0;
+    border-radius: 1em;
 }
 
 .navigation li:first-child {
@@ -64,11 +66,32 @@ header figure.logo {
     display: block;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: #E5DDDC;
+    border-radius: 1em;
+    padding: 0.75rem;
+    font-size: 0.95rem;
+} 
+
+button:hover {
+    background-color: #bbb;
+    color: #36454f;
+    --d: 75%;
+    border-radius: 1em;
+    width: 100%;
+}
+
 
 nav a:hover {
     background-color: #bbb;
     color: #36454f;
     --d: 75%;
+    border-radius: 1em;
 }
 nav ul {
     background-color: #E5DDDC; 
@@ -89,7 +112,6 @@ nav ul li a {
 body {
     font-family: "Helvetica", sans-serif;
     padding: 30px 0px;
-    margin: 0;
     background-color: #FF695C;  
 }
 
@@ -97,17 +119,23 @@ h1,h2,h3,h4 {
     font-family: 'Montserrat', sans-serif;;
 }
 
+
 main {
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr;
-    margin: 0px -30px;
+    display: grid; 
+    grid-gap: .5em;
+    /* /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr; */
+    /* margin: 0px -30px; */
 }
 
-.box {
-    background-color: #E5DDDC;
-    margin: 10px;
+img[data-src] {
+    filter: blur(0.2em);
+}
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 
 h3 {
@@ -116,7 +144,8 @@ h3 {
 
 .headingbox {
     background-color: white;
-    padding: 1%;
+    /* padding: 1%; */
+    margin: 0;
 }
 
 .notsmall {
@@ -131,54 +160,48 @@ h3 {
     margin: 10px;
 }
 
+.box {
+    position: relative;
+    background-color: #E5DDDC;
+    margin: 10px;
+    color: green;
+}
+
 /* Call to Action Section */
 
 #calltoaction {
-    position: relative;
+    background-color: black;
 }
 
 .callimg { 
     width: 100%;
-    height: 300px;
+    height: auto;
+    display: block;
     object-fit: cover;
 }
 
-.welcome {
-    font-size: 1.2em;
-    position: absolute;
+/* .welcome {
+    font-size: 1.5em;
+    position: relative;
     background-color: black;
     color: white;
-    padding: 1px;
-    border-radius: 2em;
-    top: 2%;
-    left: 10%;
-    right: 10%;
-}
-
-.join {
-    font-size: 1rem;
-    position: absolute;
-    background-color: #FF695C;
-    color: black;
-    padding: 15px 5px;
-    border-radius: 2em;
-    left: 20%;
-    bottom: 1%;
-    right: 20%;
-}
+    max-width: 80%;
+    left: 15%;
+    right: 15%;
+} */
 
 /* Event Section */
 
-#event {
+/* #event {
     padding: 2em;
-}
+} */
 
 /* Weather Section  */
 
-#weather {
+/* #weather {
     padding: 2em;
     position: relative;
-}
+} */
 
 .weatherimg {
     max-width: 40%;
@@ -190,16 +213,19 @@ h3 {
 
 .spotlights {
     background-color: #FF695C;
+    position: relative;
+    justify-content: center;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     margin: 10px;
 }
 
 #spotlight1 {
     position: relative;
+    
     background-color: white;
-    grid-row: 1/2;
-    display: grid;
+    /* grid-row: 1/2; */
+    /* display: grid; */
     padding: 0 10px;
 
 }
@@ -207,7 +233,7 @@ h3 {
 #spotlight2 {
     position: relative;
     background-color: white;
-    display: grid;
+    /* display: grid; */
     padding: 0 10px;
 }
 
@@ -218,15 +244,9 @@ h3 {
 }
 
 .spotlightimg {
-    position: absolute;
-    max-width: 40%;
-    max-height: 40%;
-    left: 35%;
-    top: 15%;
-}
-
-.spotlightinfo {
-    margin-bottom: -70px;
+    max-width: 30%;
+    float: left;
+    background-color: pink;
 }
 
 .contactinfo {
@@ -246,30 +266,24 @@ h3 {
 
 /* Join Section */
 
-#join {
-    position: relative;
-    display: grid;
-    font-size: large;
-    padding: 0 2em;
-    padding: 40px;
-}
-
 .jointext {
     margin-top: 20%;
 }
 
-.join2 {
-    font-size: 2rem;
-    position: absolute;
+.button {
+    /* position:relative; */
+    /* font-size: 2rem; */
     background-color: #FF695C;
     color: black;
-    padding: 15px 55px;
-    border-radius: 2em;
-    left: 5%;
-    top: 1%;
-    right: 5%;
+    padding: 15px;
+    border-radius: 1em;
+    /* max-width: 75%; */
+    margin: 5% 15%;
+    
+    /* left: 5%; */
+    /* top: 1%;
+    right: 5%; */
 }
-
 /* Footer */
 
 footer {
@@ -293,4 +307,52 @@ footer {
     content: "";
     display: table;
     clear:both;
+}
+
+
+/* discover */
+
+.discover picture img{
+
+    /* display: grid;
+    margin: 0 auto;
+    justify-items: center; */
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  /* margin: 10px; */
+  /* max-width: 300px; */
+}
+
+/* Make the image to responsive */
+.image {
+  /* display: block; */
+  /* width: 100%; */
+  /* height: auto; */
+}    
+  
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  /* font-size: 20px; */
+  /* padding: 10px; */
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
 }
