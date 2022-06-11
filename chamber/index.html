@@ -20,37 +20,24 @@
     <header class="clearfix">
         <img src="images/logo.webp" class="logo" alt="logo of Heart">
         <section class="titlebox">
-            <H1 class="">Hartsville</H1>
-            <h1>Chamber of Commerce</h1>
+            <h1 >Hartsville Chamber of Commerce</h1>
         </section>  
     </header>
     <nav>       
         <ul class="navigation">
-        <li> <button onclick="toggleMenu()"> Menu</button></li>
-        <li><a href="discover.html" >Discover</a></li>
-        <li><a href="">Directory</a></li>
-        <li><a href="">Join</a></li>
-        <li><a href="">Contact</a></li>
+            <li> <button onclick="toggleMenu()"> Menu</button></li>
+            <li><a href="discover.html" >Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <section class="date"><h2><span id="headerdate">date</span></h2></section>
-    
+    <section class="date"><span>date</span></section>
     <main>
         <div id="calltoaction"  class="container">
-            <h3 class="overlay" class="headingbox" >Welcome to Hartsville</h3>
             <img  class="callimg" src="images/Hartsville.jpg" alt="Photograph of Hartville at night">
-            <div class="overlay"><a href=""><h3 class="button">Join the Chamber</h3></a></div>
-            
-           
-            
-            <!-- <picture class="heroimage">
-                <source srcset= "images/Hartsville.jpg" media="(min-width:500px) and (max-width: 799px)">
-                    <source srcset="images/Hartsville.jpg" media="(min-width:800px)">
-                
-            </picture> -->
-            
-            
-            
+            <h3 class="overlay" id="welcome" >Welcome to Hartsville</h3>
+            <a href="" class="overlay" id="joinbutton"><h3 class="button">Join the Chamber</h3></a>
         </div>
         <div id="event" class="box">
             <div class="headingbox">
@@ -71,9 +58,10 @@
                 <p >WindChill: <span id="w"></span></p>
             </div>
         </div>
-        <div id="join" class="notsmall" >
+        <div  class="join" >
             <a href=""><h3 class="button">Join Us!</h3></a>
-            <p class="box">Learn more about the Hartsville chamber of commerce and how it could benefit you and your organization!</p>
+            <p>Learn more about the Hartsville chamber of commerce and how it could benefit you and your organization!</p>
+        
         </div>
         <div id="newreleases" class="box">
             <div class="headingbox">
@@ -102,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div id="spotlight2" class="box">
+            <div  class="box">
                 <h3>Swimming Lessons</h3>
                 <img class="spotlightimg" src="images/swimming.png" alt="icon of person swimming">
                 <div class="spotlightinfo">
@@ -113,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div id="spotlight3" class="onlylarge" class="box">
+            <div  class="onlylarge" class="box">
                 <h3>Lumber and Barns</h3>
                 <img class="spotlightimg" src="images/shed.png" alt="icon of shed">
                 <div class="spotlightinfo">
@@ -129,15 +117,17 @@
     <footer>
         <div>
             <img src="images/logo.webp" class="logo" alt="logo of Heart">
-            <div id="info">
-                <H4>Hartsville Chamber of Commerce</H4>
+            <div class="titlebox">
+                <h3>Hartsville Chamber of Commerce</h3>
                 <p>1289 Edison St. NW Hartville, SC 44632</p>
                 <p>info@Hartsville.com</p>
                 <p>(621) 3290-3200 </p>
             </div>
         </div>
-        <p>&copy;<span id="year">year</span>Hartsville Chamber | Zachary Robker | WDD 230 Project</p>
-        <p>Last Updated: <span id="date">date</span></p><a href="https://zrobker.github.io/wdd230/index.html" id="home-link">Home</a>
+        <div class="fineprint">
+            <p>&copy;<span id="year">year</span>Hartsville Chamber | Zachary Robker | WDD 230 Project</p>
+            <p>Last Updated: <span id="date">date</span></p><a href="https://zrobker.github.io/wdd230/index.html" id="home-link">Home</a>
+        </div>
     </footer>
     </div>
 </body>

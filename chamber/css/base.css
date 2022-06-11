@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@700&display=swap');
 
-/* everything */
+/* EVERYTHING */
+
+body {
+    font-family: "Helvetica", sans-serif;
+    padding: 30px 0px;
+    background-color: #E5DDDC;  
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;;
+}
 
 #content {
     max-width: 960px;
@@ -10,10 +20,30 @@
     padding: 1em 2.5em; 
 }
 
-/* header and navigation */
+a:link {
+    text-decoration: none;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+/* ------------------------------------------------------- */
+
+/* HEADER */
+
+header {
+    text-align: center;
+    border: 1px white dashed;
+    margin-top: 1em;
+}
 
 /* Clearfix: Force an Element not to collapse */
-
 .clearfix:after {
     content: "";
     display: table;
@@ -23,36 +53,59 @@
 .logo {
     float:left;
     max-width: 35%;
-    border: 1px red dashed;
-    /* margin-top: 0;
-    padding-top: 2%; */
+    margin: 1.6em;
+    margin-left: 0;
+    border: 2px black solid;
+    border-radius: 1em;
+    margin-top: -.5em;
+    margin-left: -.5em;
 }
 
-.title {
-    position: relative;
-    font-size: .8em;
+.titlebox {
+    margin: 2em;
+    margin-bottom: 0;
+    height: 100%;
+    border: 5px #FF695C solid;
+    border-radius: 1em;
+    background-color: #FF695C;
+    padding: 1em;
 }
 
-header {
-    background-color: white;
-    color: black;
-}
+/* ------------------------------------------------------- */
 
-
-.date {
-    text-align: center;
-}
+/* NAVIGATION */
 
 .navigation {
-    list-style: none;
     text-align: center;
     padding: 0;
     border-radius: 1em;
 }
 
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+    --d: 75%;
+    border-radius: 1em;
+}
+nav ul {
+    background-color: #E5DDDC; 
+}
+
+nav ul li a {
+    
+	display: block;
+	color: black;
+	padding: 0.75rem;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+
+/* drop down menu */
+
 .navigation li:first-child {
     display: block;
 }
+
 .navigation li {
     display: none;
 }
@@ -61,8 +114,92 @@ header {
     display: block;
 }
 
-a:link {
-    text-decoration: none;
+/* ------------------------------------------------------- */
+
+/* DATE */
+
+.date {
+    text-align: center;
+    margin: .5em;
+    padding: .5em;
+}
+
+/* ------------------------------------------------------- */
+
+/* MAIN */
+
+main {
+    text-align: center;
+    display: grid; 
+    background-color: #FF695C;
+    border-radius: 10px;
+    padding: .5em;
+}
+
+/* ------------------------------------------------------- */
+
+/* CALL TO ACTION */
+
+#calltoaction {
+    /* background-color: black; */
+    position: relative;
+    width: 100%;
+    
+}
+
+.callimg { 
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* The overlay effect */
+.overlay {
+  position:absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  transition: 1s ease;
+  opacity:0;
+}
+
+#welcome {
+    width: 100%;
+    font-size: 1.5em;
+    top: 1%;
+    padding-top: .5em;
+}
+
+#joinbutton {
+    background: none;
+    width: 100%;
+    bottom: 5%;
+    left: 0%;
+}
+/* fade in the overlay title */
+#calltoaction:hover .overlay {
+  opacity: 1;
+}
+
+/* ------------------------------------------------------- */
+
+/* BUTTONS */
+
+.button {
+    /* position:relative; */
+    /* font-size: 2rem; */
+    background-color: #FF695C;
+    color: black;
+    padding: 15px;
+    border-radius: 1em;
+    max-width: 75%;
+    margin: 5% 15%;
+    
+    /* left: 5%;
+    top: 1%;
+    right: 5%; */
 }
 
 button {
@@ -81,174 +218,30 @@ button:hover {
     width: 100%;
 }
 
-
-nav a:hover {
-    background-color: #bbb;
-    color: #36454f;
-    --d: 75%;
-    border-radius: 1em;
-}
-nav ul {
-    background-color: #E5DDDC; 
-}
-
-nav ul li a {
-    
-	display: block;
-	color: black;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	transition: 0.5s;
-}
-
-/* body and main */
-
-body {
-    font-family: "Helvetica", sans-serif;
-    padding: 30px 0px;
-    background-color: #FF695C;  
-}
-
-h1,h2,h3,h4 {
-    font-family: 'Montserrat', sans-serif;;
-}
+/* ------------------------------------------------------- */
 
 
-main {
-    text-align: center;
-    display: grid; 
-    grid-gap: .5em;
-    /* /* grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr; */
-    /* margin: 0px -30px; */
-}
-
-img[data-src] {
-    filter: blur(0.2em);
-}
-  
-img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
-
-h3 {
-    color: black;
-}
 
 .headingbox {
-    background-color: white;
-    /* padding: 1%; */
-    margin: 0;
-}
-
-.notsmall {
-    display: none;
     background-color: #E5DDDC;
-    margin: 10px;
+    padding: 1%;
+    margin: 1em;
 }
-
-.onlylarge {
+.join {
     display: none;
-    background-color: #E5DDDC;
-    margin: 10px;
 }
-
 .box {
     position: relative;
-    background-color: #E5DDDC;
+    background-color: white;
     margin: 10px;
-    color: green;
+    height: 96%;
+    padding: 0 10px;
+    border-radius: 10px;
 }
-
-/* Call to Action Section */
-
-#calltoaction {
-    background-color: black;
-}
-
-.callimg { 
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-
-/* .welcome {
-    font-size: 1.5em;
-    position: relative;
-    background-color: black;
-    color: white;
-    max-width: 80%;
-    left: 15%;
-    right: 15%;
-} */
-
-/* Event Section */
-
-/* #event {
-    padding: 2em;
-} */
-
-/* Weather Section  */
-
-/* #weather {
-    padding: 2em;
-    position: relative;
-} */
 
 .weatherimg {
     max-width: 40%;
     float:inline-start;
-}
-
-
-/* Spotlight Section  */
-
-.spotlights {
-    background-color: #FF695C;
-    position: relative;
-    justify-content: center;
-    display: grid;
-    /* grid-template-rows: 1fr 1fr; */
-    margin: 10px;
-}
-
-#spotlight1 {
-    position: relative;
-    
-    background-color: white;
-    /* grid-row: 1/2; */
-    /* display: grid; */
-    padding: 0 10px;
-
-}
-
-#spotlight2 {
-    position: relative;
-    background-color: white;
-    /* display: grid; */
-    padding: 0 10px;
-}
-
-#spotlight3 {
-    position: relative;
-    background-color: white;
-    padding: 0 10px;
-}
-
-.spotlightimg {
-    max-width: 30%;
-    float: left;
-    background-color: pink;
-}
-
-.contactinfo {
-    border: black;
-    border-top-style: solid;
-    margin: 20px;
-    font-size: small;
 }
 
 /* Releases Section */
@@ -259,89 +252,67 @@ h3 {
     padding: 0 2em;
 }
 
-/* Join Section */
+/* ------------------------------------------------------- */
 
-.jointext {
-    margin-top: 20%;
+/* Spotlight Section  */
+
+.spotlights {
+    display: grid;
 }
 
-.button {
-    /* position:relative; */
-    /* font-size: 2rem; */
-    background-color: #FF695C;
-    color: black;
-    padding: 15px;
-    border-radius: 1em;
-    /* max-width: 75%; */
-    margin: 5% 15%;
-    
-    /* left: 5%; */
-    /* top: 1%;
-    right: 5%; */
+
+.spotlightimg {
+    max-width: 40%;
+    float: inline-start;
 }
-/* Footer */
+
+.contactinfo {
+    border: black;
+    border-top-style: solid;
+    margin: 20px;
+    font-size: small;
+}
+
+/* ------------------------------------------------------- */
+
+/* FOOTER */
 
 footer {
-    background-color: #E5DDDC;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
+    text-align: right;
     padding: 1em;
     margin-top: 2em;
 }
-#info {
-    text-align: right;
-    grid-row: 1/2;
-    border-bottom: black;
-    border-width: 1em;
+
+.fineprint {
+    text-align: center;
+    font-size: .7em;
 }
 
+/* ------------------------------------------------------- */
+
+/* POSITIONING */
 
 
 
-/* discover */
+.onlylarge {
+    display: none;
+    background-color: #E5DDDC;
+    margin: 10px;
+}
 
-.discover picture img{
+/* ------------------------------------------------------- */
 
-    /* display: grid;
+/* DISCOVER */
+
+.discover {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
     margin: 0 auto;
-    justify-items: center; */
 }
 
-* {box-sizing: border-box}
-
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 100%;
-  /* margin: 10px; */
-  /* max-width: 300px; */
+.discover img {
+    width: 100%;
 }
 
-/* Make the image to responsive */
-.image {
-  /* display: block; */
-  /* width: 100%; */
-  /* height: auto; */
-}    
-  
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: relative;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  /* font-size: 20px; */
-  /* padding: 10px; */
-  text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-  opacity: 1;
-}

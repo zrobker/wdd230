@@ -17,15 +17,12 @@
 </head>
 <body>
     <div id="content">
-    <header class="clearfix">
-        <figure class="logo">
-            <img src="images/logo.webp" alt="logo of Heart">
-        </figure>
-        <section class="title">
-            <H1>Hartsville</H1>
-            <h2>Chamber of Commerce</h2>
-        </section>  
-    </header>
+        <header class="clearfix">
+            <img src="images/logo.webp" class="logo" alt="logo of Heart">
+            <section class="titlebox">
+                <h1 >Hartsville Chamber of Commerce</h1>
+            </section>  
+        </header>
     <nav>       
         <ul class="navigation">
         <li> <button onclick="toggleMenu()"> Menu</button></li>
@@ -56,18 +53,18 @@
     </main>
     <footer>
         <div>
-            <figure class="logo">
-                <img src="images/logo.webp" alt="logo of Heart">
-            </figure>
-            <div id="info">
-                <H4>Hartsville Chamber of Commerce</H4>
+            <img src="images/logo.webp" class="logo" alt="logo of Heart">
+            <div class="titlebox">
+                <h3>Hartsville Chamber of Commerce</h3>
                 <p>1289 Edison St. NW Hartville, SC 44632</p>
                 <p>info@Hartsville.com</p>
                 <p>(621) 3290-3200 </p>
             </div>
         </div>
-        <p>&copy;<span id="year">year</span>Hartsville Chamber | Zachary Robker | WDD 230 Project</p>
-        <p>Last Updated: <span id="date">date</span></p><a href="https://zrobker.github.io/wdd230/index.html" id="home-link">Home</a>
+        <div class="fineprint">
+            <p>&copy;<span id="year">year</span>Hartsville Chamber | Zachary Robker | WDD 230 Project</p>
+            <p>Last Updated: <span id="date">date</span></p><a href="https://zrobker.github.io/wdd230/index.html" id="home-link">Home</a>
+        </div>
     </footer>
     </div>
 </body>
