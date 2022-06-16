@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@700&family=Ubuntu&display=swap');
+
+
+:root {
+	--back: rgb(104, 173, 193);
+  --back2: rgba(11, 59, 131, 0.5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: rgb(250, 0, 0);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: rgb(231, 255, 231);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+    font-family: Ubuntu, sans-serif;
+    background-color: rgb(237, 237, 237);
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    background-color: var(--back);
+	font-size: .85rem;
+    border: 1px solid var(--borderlight);
+}
+
+tr:first-child th {
+	background-color: var(--back);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+    color: white;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+h2 {
+    color:black;
+}
+
+.special {
+    background-color: var(--back2);
+    color: white;
+}
