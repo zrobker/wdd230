@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Plan Hartsville Chamber of Commerce for Zach Robker in WDD 230: Web Frontend 
+    Development at Brigham Young University - Idaho">
+    <title>Hartsville Chamber of Commerce | Join Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/javascript.js" defer></script>
+    <script src="js/lazyload.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <header class="clearfix">
+            <img src="images/logo.webp" class="logo" alt="logo of Heart">
+            <section class="titlebox">
+                <h1 >Hartsville Chamber of Commerce</h1>
+            </section>  
+        </header>
+    <nav>       
+        <ul class="navigation">
+        <li> <button onclick="toggleMenu()"> Menu</button></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="date"><h2><span id="headerdate">date</span></h2></section>
+    <main class="join">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Position Title<input type="text" name="title" pattern="[A-Za-z\ \-]"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1110001234" required></label>
+                <label class="top">Business name*<input type="text" name="business" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Options</legend>
+                <div>Tiers</div>
+                <label class="sbs"><input type="radio" name="membership" value="NP Membership">Non-Profit</label>
+                <label class="sbs"><input type="radio" name="membership" value="Bronze Membership">Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="Silver Membership">Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="Gold Membership">Gold</label>
+            </fieldset>
+            <Input type="submit" value="Sign Up" class="submitBtn"></Input>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <img src="images/logo.webp" class="logo" alt="logo of Heart">
+            <div class="titlebox">
+                <h3>Hartsville Chamber of Commerce</h3>
+                <p>1289 Edison St. NW Hartville, SC 44632</p>
+                <p>info@Hartsville.com</p>
+                <p>(621) 3290-3200 </p>
+            </div>
+        </div>
+        <div class="fineprint">
+            <p>&copy;<span id="year">year</span>Hartsville Chamber | Zachary Robker | WDD 230 Project</p>
+            <p>Last Updated: <span id="date">date</span></p><a href="https://zrobker.github.io/wdd230/index.html" id="home-link">Home</a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

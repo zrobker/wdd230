@@ -316,3 +316,34 @@ footer {
     width: 100%;
 }
 
+/* ------------------------------------------------------- */
+
+/* FORM */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #FF695C;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: aquamarine;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .8rem;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px pink;
+    border-radius: 4px;
+
+}
