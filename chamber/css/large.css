@@ -58,6 +58,35 @@
         grid-column: 1/2;
     }
 
+    
+    .weatherimg {
+        max-width: 60%;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+    .thanks {
+        position: relative;
+        max-height: 500px;
+    }
+
+    .thanks1 {
+        top: 29%;
+        font-size: 3em;
+    }
+    
+    .thanks2 {
+        bottom: 33%;
+        font-size: 1.5em;
+    }
+
+
+    .thanksimg {
+        margin-top: -15%;
+        width: 400%;
+    }
+
 
     /* .callimg { 
         width: 100%;
@@ -85,9 +114,7 @@
         display: grid;
     } */
 
-    .weatherimg {
-        max-width: 60%;
-    }
+
 
     
     /* Join Section */

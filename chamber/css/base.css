@@ -328,22 +328,84 @@ form fieldset {
 }
 
 form legend {
-    color: aquamarine;
+    color: blue;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top {
     display: block;
     padding-top: 1rem;
-    color: red;
+    color: black;
     font-size: .8rem;
+    text-align: left;
 }
 
 form label.top input {
     display: block;
     font-size: 1rem;
-    border: solid 1px pink;
+    border: solid 1px black;
     border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #E5DDDC;
+}
 
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #FF695C;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #FF695C;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left:red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* ------------------------------------------------------- */
+
+/* THANKS */
+
+.thanks {
+    background-color: #E5DDDC;
+    margin: 2rem;
+    position: relative;
+    max-height: 500px;
+    min-height: 170px;
+}
+
+.thanks1 {
+    position: absolute;
+    top: 19%;
+    left: 25%;
+    right: 25%;
+    color: black;
+}
+
+.thanks2 {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    right: 15%;
+}
+
+.thanksimg {
+    width: 100%;
+    margin-top: -5%;
+    opacity: 0.6;
 }

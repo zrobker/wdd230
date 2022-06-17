@@ -74,4 +74,24 @@
         padding-top: 2px;
         font-size: 1em;
     } */
+    .thanks {
+        position: relative;
+        max-height: 380px;
+    }
+
+    .thanks1 {
+        top: 19%;
+        font-size: 3em;
+    }
+    
+    .thanks2 {
+        bottom: 25%;
+        font-size: 1.5em;
+    }
+
+
+    .thanksimg {
+        margin-top: -15%;
+        width: 300%;
+    }
 }

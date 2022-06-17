@@ -41,18 +41,20 @@
                 <label class="top">Last Name*<input type="text" name="lname" required></label>
                 <label class="top">Position Title<input type="text" name="title" pattern="[A-Za-z\ \-]"></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
-                <label class="top">Phone*<input type="tel" name="phone" placeholder="1110001234" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Business name*<input type="text" name="business" required></label>
+                <label class="top">Business Description<input type="text" name="businessDiscription" ></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Options</legend>
                 <div>Tiers</div>
-                <label class="sbs"><input type="radio" name="membership" value="NP Membership">Non-Profit</label>
-                <label class="sbs"><input type="radio" name="membership" value="Bronze Membership">Bronze</label>
-                <label class="sbs"><input type="radio" name="membership" value="Silver Membership">Silver</label>
-                <label class="sbs"><input type="radio" name="membership" value="Gold Membership">Gold</label>
+                <label class="sbs"><input type="radio" name="membership" value="NP Membership"> Non-Profit</label>
+                <label class="sbs"><input type="radio" name="membership" value="Bronze Membership"> Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="Silver Membership"> Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="Gold Membership"> Gold</label>
             </fieldset>
-            <Input type="submit" value="Sign Up" class="submitBtn"></Input>
+            <label><input type="hidden" id="date" name="dateTime"></label>
+            <label><Input type="submit" value="Sign Up" class="submitBtn"></Input></label>
         </form>
     </main>
     <footer>

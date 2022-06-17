@@ -30,6 +30,4 @@ function get_day_month_year() {
         dateStyle: "full"
     }).format(now);
     datefield.innerHTML = `<em>${fulldate}</em>`;
-    // broken
-    // datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 }
