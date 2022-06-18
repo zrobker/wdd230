@@ -94,4 +94,18 @@
         margin-top: -15%;
         width: 300%;
     }
+
+    .side {
+        display: block;
+        grid-column: 2/3;
+    }
+    
+    .form{
+        grid-column: 1/2;
+    }
+
+    .joinpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

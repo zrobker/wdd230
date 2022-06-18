@@ -227,9 +227,11 @@ button:hover {
     padding: 1%;
     margin: 1em;
 }
+
 .join {
     display: none;
 }
+
 .box {
     position: relative;
     background-color: white;
@@ -320,6 +322,7 @@ footer {
 
 /* FORM */
 
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #FF695C;
@@ -377,6 +380,22 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+.joinpage {
+    background-color: #E5DDDC;
+    margin: -5%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.side {
+    display: none;
+    grid-column: 2/3;
+}
+
+.form{
+    grid-column: 1/2;
+}
+
 /* ------------------------------------------------------- */
 
 /* THANKS */
@@ -410,3 +429,6 @@ form label.top input:required:valid {
     margin-top: -5%;
     opacity: 0.6;
 }
+
+
+
