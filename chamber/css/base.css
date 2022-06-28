@@ -318,7 +318,7 @@ footer {
     display: grid;
     display: block;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     padding: 1.5em;
 
