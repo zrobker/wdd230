@@ -306,16 +306,34 @@ footer {
 
 /* DISCOVER */
 
+.discover h1 {
+    background-color: #E5DDDC;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
 .discover {
 
     display: grid;
+    display: block;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr,1fr,1fr,1fr,1fr;
     margin: 0 auto;
+    padding: 1.5em;
+
 }
 
 .discover img {
-    width: 100%;
+    max-width: 100%;
+    margin-bottom: .5em;
+}
+
+.discover figure {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 5px;
+    margin-bottom: 2em;
 }
 
 /* ------------------------------------------------------- */
