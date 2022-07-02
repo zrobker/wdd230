@@ -406,7 +406,7 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-.joinpage {
+#joinpage {
     background-color: #E5DDDC;
     padding: 1rem;
     border-radius: 10px;
