@@ -350,7 +350,6 @@ form fieldset {
 }
 
 form legend {
-    color: blue;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -360,18 +359,23 @@ form label.top {
     padding-top: 1rem;
     color: black;
     font-size: .8rem;
+    max-width: 90%;
 }
 
-form label.top input {
+form label.top input, form label.top textarea{
     display: block;
     font-size: 1rem;
     border: solid 1px black;
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+    width: 95%;
     max-width: 20rem;
-    background-color: #E5DDDC;
+    background-color: white;
+}
+
+form label.hidden{
+    display: none !important;
 }
 
 form label.sbs {
@@ -390,6 +394,10 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+form label.top input, form label.top textarea{
+    border-left: grey solid 6px;
+}
+
 form label.top input:required {
     border-left:red solid 6px;
 }
@@ -400,7 +408,6 @@ form label.top input:required:valid {
 
 .joinpage {
     background-color: #E5DDDC;
-    margin: -5%;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -408,10 +415,21 @@ form label.top input:required:valid {
 .side {
     display: none;
     grid-column: 2/3;
+    padding: 1rem;
 }
 
 .form{
     grid-column: 1/2;
+}
+
+.info {
+    background-color: white;    
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.info section{
+    margin-bottom: 3em;
 }
 
 /* ------------------------------------------------------- */

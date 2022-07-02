@@ -40,11 +40,12 @@
                     <legend>Applicant Information</legend>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
-                    <label class="top">Position Title<input type="text" name="title" pattern="[A-Za-z\ \-]"></label>
+                    <label class="top">Position Title<input type="text" name="title" pattern="[A-Za-z\-\s]{5,}"></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
                     <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
                     <label class="top">Business name*<input type="text" name="business" required></label>
-                    <label class="top">Business Description<input type="text" name="businessDiscription" ></label>
+                    <label class="top">Business Description<textarea name="businessDescription" rows="4"
+                        placeholder="Give us a brief description of your business. "></textarea></label>
                 </fieldset>
                 <fieldset>
                     <legend>Membership Options</legend>
@@ -54,12 +55,39 @@
                     <label class="sbs"><input type="radio" name="membership" value="Silver Membership"> Silver</label>
                     <label class="sbs"><input type="radio" name="membership" value="Gold Membership"> Gold</label>
                 </fieldset>
-                <label><input type="hidden" id="date" name="dateTime"></label>
+                <label class="hidden"><input type="hidden" name="dateTime"><span id="date"></span></label>
                 <label><Input type="submit" value="Sign Up" class="submitBtn"></Input></label>
             </form>
             <div class="side">
-                <h1>Membership Options</h1>
-                <p>Gold......</p>
+                <h2>Membership Options</h2>
+                <div class="info">
+                    <section>
+                        <h3>Non-Profit Organization</h3>
+                        <p>We provide a special offer for any non-profit organization. This option includes all of the benefits of a silver membership but at no fee.</p>
+                    </section>
+                    <section>
+                        <h3>Bronze Membership</h3>
+                        <p>
+                            The bronze membership offers you the basics. This also includes a 10% discount at all particpating businesses in the area as well as an 
+                            invitation to attend 10 of our training conferences per year. This costs $500/year.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Silver Membership</h3>
+                        <p>
+                            The silver Membership offers the basics and a little extra. This includes a 20% discount at all particpating businesses in the area, 
+                            invitations to attend 10 of our training conferences per year, and advertising for your business including on our website and monthly newsletter. This costs $800/year. 
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Gold Membership</h3>
+                        <p>
+                            Gold membership you will recieve all basic benefits but you will also be given VIP status. This offers a 25% discount at all particpating businesses in the area, 
+                            invitations to attend all training conferences throughout the year, prefered VIP seating and lounge at conferences, exclusive invite to VIP club dinner, and spotlight 
+                            advertising for your business on our website homepage and monthly newsletter. This costs $1500/year.
+                        </p>
+                    </section>
+                </div>
             </div>
         </section>
     </main>

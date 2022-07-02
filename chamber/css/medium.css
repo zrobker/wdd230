@@ -1,9 +1,11 @@
 @media screen and (min-width: 32.5em) { 
 
-    main {
+    #layout {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr .85fr 1fr;
     }
+
+
     #calltoaction {
         grid-row: 1/2;
         grid-column: 1/4;
@@ -74,30 +76,19 @@
         padding-top: 2px;
         font-size: 1em;
     } */
-    .thanks {
-        position: relative;
-        max-height: 380px;
-    }
+    
 
     .thanks1 {
-        top: 19%;
         font-size: 3em;
     }
     
     .thanks2 {
-        bottom: 25%;
         font-size: 1.5em;
     }
 
 
-    .thanksimg {
-        margin-top: -15%;
-        width: 300%;
-    }
-
     .side {
         display: block;
-        grid-column: 2/3;
     }
     
     .form{
