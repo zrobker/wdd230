@@ -395,7 +395,7 @@ form input.submitBtn {
 }
 
 form label.top input, form label.top textarea{
-    border-left: grey solid 6px;
+    border-left: black solid 6px;
 }
 
 form label.top input:required {
