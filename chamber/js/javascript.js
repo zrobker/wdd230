@@ -9,6 +9,12 @@ function get_date() {
     document.getElementById("date").innerHTML = LastModif;
 }
 
+function get_date2() {
+    var LastModif = new Date(document.lastModified);
+    console.log(LastModif);
+    document.getElementById("date2").innerHTML = LastModif;
+}
+
 function get_year() {
     var date =  new Date().getFullYear();
     console.log(date);
@@ -31,3 +37,4 @@ function get_day_month_year() {
     }).format(now);
     datefield.innerHTML = `<em>${fulldate}</em>`;
 }
+
