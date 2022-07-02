@@ -202,7 +202,7 @@ main {
     right: 5%; */
 }
 
-button {
+nav button {
     border: none;
     background-color: #E5DDDC;
     border-radius: 1em;
@@ -210,7 +210,7 @@ button {
     font-size: 0.95rem;
 } 
 
-button:hover {
+nav button:hover {
     background-color: #bbb;
     color: #36454f;
     --d: 75%;
@@ -466,5 +466,85 @@ form label.top input:required:valid {
     opacity: 0.6;
 }
 
+/* ------------------------------------------------------- */
 
+/* DIRECTORY */
 
+.directory {
+    background-color: #E5DDDC;
+
+}
+
+.menu button:hover{
+    border: 3px solid black;
+}
+
+.menu button {
+    margin: 1em;
+	padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF695C;
+}
+
+.directory figure{
+    padding: 1.5em;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+    
+}
+
+.grid {
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+/* .grid section {
+	flex-direction: column;
+	text-align: center;
+} */
+
+/* .grid section > * {
+	margin: 0.1rem;
+} */
+
+/* .list section {
+	flex-direction: row;
+	justify-content: left;
+} */
+
+.list section > * {
+	/* margin: 0 1rem; */
+	text-align: left;
+    width: 100%;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+.directory img {
+	height: 75px;
+	max-width: 100%;
+}
+
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
