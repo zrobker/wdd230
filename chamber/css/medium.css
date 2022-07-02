@@ -95,7 +95,7 @@
         grid-column: 1/2;
     }
 
-    .joinpage {
+    #joinpage {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
