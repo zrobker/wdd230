@@ -25,7 +25,7 @@
         "phone": "843-332-4858",
         "weburl": "https://hartsvillesbestpizza.com/",
         "membership": "Bronze",
-        "imageurl": "/images/sophias.png"
+        "imageurl": "images/sophias.png"
       },
       {
         "name": "Neptune Island Waterpark",
@@ -43,7 +43,7 @@
         "phone": "1-800-377-2692",
         "weburl": "https://www.sonoco.com/",
         "membership": "Gold",
-        "imageurl": "/images/sonoco.jpg"
+        "imageurl": "images/sonoco.jpg"
       },
       {
         "name": "PitaPit",
@@ -52,7 +52,7 @@
         "phone": "(843) 332-4820",
         "weburl": "https://order.pitapitusa.com/menu/hartsville",
         "membership": "Bronze",
-        "imageurl": "/images/PitaPit.jpg"
+        "imageurl": "images/PitaPit.jpg"
       },
       {
         "name": "Novolex",
@@ -61,7 +61,7 @@
         "phone": "1-800-845-6051",
         "weburl": "https://novolex.com/",
         "membership": "Gold",
-        "imageurl": "/images/novolex.jpg"
+        "imageurl": "images/novolex.jpg"
       },
       {
         "name": "Lumber and Barns",
@@ -70,7 +70,7 @@
         "phone": "843-383-6630",
         "weburl": "https://hartsvillelumberandbarns.com/",
         "membership": "Silver",
-        "imageurl": "/images/lumber.png"
+        "imageurl": "images/lumber.png"
       },
       {
         "name": "YMCA",
@@ -79,7 +79,7 @@
         "phone": "(843) 383-4547",
         "weburl": "https://www.ymcaupd.org/",
         "membership": "Non-Profit",
-        "imageurl": "/images/ymca.jpg"
+        "imageurl": "images/ymca.jpg"
       }
     ]
   }
