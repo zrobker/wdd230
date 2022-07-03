@@ -1,4 +1,4 @@
-const requestURL = 'https://github.io/zrobker/wdd230/blob/main/chamber/json/data.json';
+const requestURL = 'https://zrobker.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -30,7 +30,7 @@ function displayBusiness(business) {
     membership.innerHTML = business.membership;
 
     website.innerHTML = "Website";
-    image.setAttribute('src', business.image);
+    image.setAttribute('src', business.imageurl);
     image.setAttribute('alt', name);
     card.setAttribute('loading', 'lazy');
     website.setAttribute('href',business.weburl);

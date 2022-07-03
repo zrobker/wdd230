@@ -7,7 +7,7 @@
         "phone": "843-206-4389",
         "weburl": "https://www.fitnessworldwidegyms.com/hartsville",
         "membership": "Silver",
-        "imageurl": "images/shed.png"
+        "imageurl": "images/fitness_world.webp"
       },
       {
         "name": "Harbor Freight",
@@ -16,7 +16,7 @@
         "phone": "843-639-5353",
         "weburl": "https://www.harborfreight.com/storelocator/827-south-5th-street-hartsville-29550?number=3202",
         "membership": "Gold",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/harbor%20freight.jpg"
+        "imageurl": "https://zrobker.github.io/wdd230/chamber/images/kalmia.jpg"
       },
       {
         "name": "Sophia's Pizzeria",
