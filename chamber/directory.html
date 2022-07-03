@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/json.js" defer></script>
     <script src="js/javascript.js" defer></script>
     <script src="js/lazyload.js" defer></script>
     <script src="js/lastvisit.js" defer></script>
@@ -35,13 +36,17 @@
     </nav>
     <section class="date"><h2><span id="headerdate">date</span></h2></section>
     <main class="directory">
-        <div class="menu">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
+        <div>
+            <h2>Business Directory</h2>
+            <div class="menu">
+                <button id="grid">Grid</button>
+                <button id="list">List</button>
+            </div>
         </div>
-        <hr>
         <article class="grid">
-            <section>
+            <div class="cards"></div>
+
+            <!-- <section>
                 <figure>
                     <h4>Fitness World</h4>
                     <img src="images/fitness world.webp" alt="fitness world gym" />
@@ -96,7 +101,7 @@
                     <p>Since 1995</p>
                     <a href="https://novolex.com/" class="button" target="_blank">Details</a>
                 </figure>
-            </section>
+            </section> -->
         </article>
     </main>
     <footer>
