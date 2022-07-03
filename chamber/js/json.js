@@ -32,7 +32,7 @@ function displayBusiness(business) {
     website.innerHTML = "Website";
     website.setAttribute('class', "button");
     image.setAttribute('src', business.imageurl);
-    image.setAttribute('alt', name);
+    image.setAttribute('alt', business.name);
     card.setAttribute('loading', 'lazy');
     website.setAttribute('href',business.weburl);
     ul.append(address,phone,membership)

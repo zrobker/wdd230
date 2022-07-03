@@ -512,6 +512,10 @@ form label.top input:required:valid {
 	flex-direction: column;
 }
 
+.list img {
+    display: none;
+}
+
 .list section {
 	align-items: center;
 }
