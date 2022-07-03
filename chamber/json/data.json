@@ -7,7 +7,7 @@
         "phone": "843-206-4389",
         "weburl": "https://www.fitnessworldwidegyms.com/hartsville",
         "membership": "Silver",
-        "imageurl": "images/fitness_world.webp"
+        "imageurl": "images/finess_world.webp"
       },
       {
         "name": "Harbor Freight",
@@ -16,7 +16,7 @@
         "phone": "843-639-5353",
         "weburl": "https://www.harborfreight.com/storelocator/827-south-5th-street-hartsville-29550?number=3202",
         "membership": "Gold",
-        "imageurl": "https://zrobker.github.io/wdd230/chamber/images/kalmia.jpg"
+        "imageurl": "images/harbor_freight.jpg"
       },
       {
         "name": "Sophia's Pizzeria",
@@ -25,7 +25,7 @@
         "phone": "843-332-4858",
         "weburl": "https://hartsvillesbestpizza.com/",
         "membership": "Bronze",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/sophias.png"
+        "imageurl": "/images/sophias.png"
       },
       {
         "name": "Neptune Island Waterpark",
@@ -34,7 +34,7 @@
         "phone": "843-951-9400",
         "weburl": "https://www.neptuneisland.com/",
         "membership": "Silver",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/neptune%20island.png"
+        "imageurl": "images/neptune_island.png"
       },
       {
         "name": "Sonoco",
@@ -43,7 +43,7 @@
         "phone": "1-800-377-2692",
         "weburl": "https://www.sonoco.com/",
         "membership": "Gold",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/sonoco.jpg"
+        "imageurl": "/images/sonoco.jpg"
       },
       {
         "name": "PitaPit",
@@ -52,7 +52,7 @@
         "phone": "(843) 332-4820",
         "weburl": "https://order.pitapitusa.com/menu/hartsville",
         "membership": "Bronze",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/PitaPit.jpg"
+        "imageurl": "/images/PitaPit.jpg"
       },
       {
         "name": "Novolex",
@@ -61,7 +61,7 @@
         "phone": "1-800-845-6051",
         "weburl": "https://novolex.com/",
         "membership": "Gold",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/novolex.jpg"
+        "imageurl": "/images/novolex.jpg"
       },
       {
         "name": "Lumber and Barns",
@@ -70,7 +70,7 @@
         "phone": "843-383-6630",
         "weburl": "https://hartsvillelumberandbarns.com/",
         "membership": "Silver",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/lumber.png"
+        "imageurl": "/images/lumber.png"
       },
       {
         "name": "YMCA",
@@ -79,7 +79,7 @@
         "phone": "(843) 383-4547",
         "weburl": "https://www.ymcaupd.org/",
         "membership": "Non-Profit",
-        "imageurl": "https://github.com/zrobker/wdd230/blob/main/chamber/images/ymca.jpg"
+        "imageurl": "/images/ymca.jpg"
       }
     ]
   }
