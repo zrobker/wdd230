@@ -30,6 +30,7 @@ function displayBusiness(business) {
     membership.innerHTML = business.membership;
 
     website.innerHTML = "Website";
+    website.setAttribute('class', "button");
     image.setAttribute('src', business.imageurl);
     image.setAttribute('alt', name);
     card.setAttribute('loading', 'lazy');
@@ -42,6 +43,7 @@ function displayBusiness(business) {
     card.appendChild(since);
     card.appendChild(ul);
     card.appendChild(website);
+    
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);

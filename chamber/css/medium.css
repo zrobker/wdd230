@@ -76,7 +76,9 @@
         padding-top: 2px;
         font-size: 1em;
     } */
-    
+    .list section {
+        display: flex;
+    }
 
     .thanks1 {
         font-size: 3em;
