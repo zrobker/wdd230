@@ -398,11 +398,11 @@ form label.top input, form label.top textarea{
     border-left: black solid 6px;
 }
 
-form label.top input:required {
+form label.top input:required,form label.top textarea:required{
     border-left:red solid 6px;
 }
 
-form label.top input:required:valid {
+form label.top input:required:valid, form label.top textarea:required:valid{
     border-left: green solid 6px;
 }
 
@@ -560,3 +560,8 @@ section h3 {
 		display: block;
 	}
 }
+
+/* ------------------------------------------------------- */
+
+/* CONTACT */
+
