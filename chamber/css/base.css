@@ -493,7 +493,7 @@ form label.top input:required:valid, form label.top textarea:required:valid{
 }
 
 .directory img{
-    background-color: black;
+    background-color: darkgrey;
 }
 
 .directory section {
