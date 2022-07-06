@@ -242,7 +242,7 @@ nav button:hover {
 }
 
 .weatherimg {
-    max-width: 40%;
+    min-width: 40%;
     float:inline-start;
 }
 
