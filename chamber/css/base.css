@@ -323,15 +323,23 @@ footer {
     border-radius: 5px;
 }
 
+.hartsville-info {
+    background-color: white;
+    padding: 2em;
+    padding-top: 1em;
+    border-radius: 10px;
+}
+
+.discover h2 {
+    background-color: #FF695C;
+    padding: 1em;
+    border-radius: 10px;
+
+}
+
 .discover {
 
-    display: grid;
     display: block;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0 auto;
-    padding: 1.5em;
-
 }
 
 .discover img {

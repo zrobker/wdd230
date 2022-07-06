@@ -104,11 +104,52 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .grid {
+        display: grid;
+    }
+    /* ------------------------------------------------------- */
+
+    /* DISCOVER */
+
+    .hartsville-info {
+        background-color: white;
+        padding: 2em;
+        padding-top: 1em;
+        border-radius: 10px;
+    }
+
+    .discover img {
+        max-width: 100%;
+        margin-bottom: .5em;
+    }
+
+    .discover figure {
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 0;
+    }
+
+
+
     .discover img:hover {
         box-shadow: 0 0 30px;
     }
 
-    .grid {
+    .discover {
+
         display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        
     }
+
+    .hartsville-info {
+        grid-column: 2/4;
+        grid-row: 1/6;
+    }
+
+    /* .discover figure {
+        grid-column: 1/2;
+    } */
+
 }
