@@ -9,8 +9,9 @@
     #calltoaction {
         grid-row: 1/2;
         grid-column: 1/4;
-        height: 75%;
+        height: 100%;
         margin-bottom: -100%;
+        
     }
     #newreleases {
         grid-row: 2/3;
