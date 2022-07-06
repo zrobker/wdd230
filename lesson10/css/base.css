@@ -1,0 +1,18 @@
+body {
+    display: block;
+    padding: 1em;   
+    background-color: aquamarine;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 2em;
+}
+
+img {
+    background-color: lightblue;
+    padding: 1em;
+    border: 1px black solid;
+    border-radius: 10px;
+}
