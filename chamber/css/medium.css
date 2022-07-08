@@ -2,9 +2,12 @@
 
     #layout {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr .85fr 1fr;
+        grid-template-rows: 1fr .5fr 1fr .5fr .75fr;
     }
 
+    main {
+        display: grid;
+    }
 
     #calltoaction {
         grid-row: 1/2;
@@ -13,6 +16,11 @@
         margin-bottom: -100%;
         
     }
+
+    .box {
+        padding: 2px;
+    }
+
     #newreleases {
         grid-row: 2/3;
         grid-column: 1/4;
