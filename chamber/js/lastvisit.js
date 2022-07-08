@@ -1,27 +1,20 @@
-let lastVisitDisplay = document.querySelector(".lastvisit");
-let timestamp = Date.now();
-let lastVisit = Number(window.localStorage.getItem("last_visit"));
+const lastVisitDisplay = document.querySelector(".lastvisit");
+var timestamp = Date.now();
+var lastVisit = Number(window.localStorage.getItem("last_visit"));
 
-if (lastVisit==0) {
+if (lastVisit != null) {
     lastVisit = timestamp;
     lastVisitDisplay.textContent = 0;
 } else {
-    let x= convert_to_day(timestamp); 
-    let y= convert_to_day(lastVisit); 
-
-    // console.log(convert_to_day(timestamp));
-    // console.log(convert_to_day(lastVisit));
-
-    let difference = Math.round(x-y);
-    // console.log(difference);
-    lastVisitDisplay.textContent = difference;
+    let days= convert_to_day(timestamp,lastVisit); 
+    lastVisitDisplay.textContent = days;
 }
 
 localStorage.setItem("last_visit", timestamp);
 
 
 
-function convert_to_day(timestamp) {
-    const days = timestamp/8640000;
+function convert_to_day(timestamp,lastVisit) {
+    const days = ((((timestamp-lastVisit)/1000)/3600)/24).toFixed(0);
     return days;
 }
