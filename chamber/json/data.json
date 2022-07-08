@@ -18,7 +18,7 @@
         "weburl": "https://www.harborfreight.com/storelocator/827-south-5th-street-hartsville-29550?number=3202",
         "membership": "Gold",
         "imageurl": "images/harbor_freight.jpg",
-        "slogan": "Come work out with us!"
+        "slogan": "The best place to find your tools."
       },
       {
         "name": "Sophia's Pizzeria",
@@ -28,7 +28,7 @@
         "weburl": "https://hartsvillesbestpizza.com/",
         "membership": "Bronze",
         "imageurl": "images/sophias.png",
-        "slogan": "Come work out with us!"
+        "slogan": "100% Pure Italian"
       },
       {
         "name": "Neptune Island Waterpark",
@@ -38,7 +38,7 @@
         "weburl": "https://www.neptuneisland.com/",
         "membership": "Silver",
         "imageurl": "images/neptune_island.png",
-        "slogan": "Come work out with us!"
+        "slogan": "Fun under the sun!"
       },
       {
         "name": "Sonoco",
@@ -48,7 +48,7 @@
         "weburl": "https://www.sonoco.com/",
         "membership": "Gold",
         "imageurl": "images/sonoco.jpg",
-        "slogan": "Come work out with us!"
+        "slogan": "Revealing a better world."
       },
       {
         "name": "PitaPit",
@@ -58,7 +58,7 @@
         "weburl": "https://order.pitapitusa.com/menu/hartsville",
         "membership": "Bronze",
         "imageurl": "images/PitaPit.jpg",
-        "slogan": "Come work out with us!"
+        "slogan": "Healthy and Delicious!"
       },
       {
         "name": "Novolex",
@@ -68,7 +68,7 @@
         "weburl": "https://novolex.com/",
         "membership": "Gold",
         "imageurl": "images/novolex.jpg",
-        "slogan": "Come work out with us!"
+        "slogan": "More than a packaging manufacturer"
       },
       {
         "name": "Lumber and Barns",
@@ -78,7 +78,7 @@
         "weburl": "https://hartsvillelumberandbarns.com/",
         "membership": "Silver",
         "imageurl": "images/lumber.png",
-        "slogan": "Come work out with us!"
+        "slogan": "You pick it, we build it."
       },
       {
         "name": "YMCA",
@@ -88,7 +88,7 @@
         "weburl": "https://www.ymcaupd.org/",
         "membership": "Non-Profit",
         "imageurl": "images/ymca.jpg",
-        "slogan": "Come work out with us!"
+        "slogan": "Bringing communities together."
       }
     ]
   }
