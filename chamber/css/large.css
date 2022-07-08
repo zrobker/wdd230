@@ -9,10 +9,9 @@
         display: block;
         flex: 1 1 100%;
     }
-    .onlylarge {
+
+    .spotlightcard section:nth-child(3) {
         display: block;
-        background-color: white;
-        border-radius: 10px;
     }
     #layout {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -29,7 +28,6 @@
     }
     .spotlights {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         grid-column: 4/5;
         grid-row: 1/4;
     }
