@@ -298,11 +298,11 @@ nav button:hover {
 
 .spotlightcard div{
     height: 350px;
-    padding-top: .5em;
+    padding: .5em;
 }
 
 .spotlightimg {
-    max-height: 20%;
+    max-height: 25%;
     max-width: 40%;
     float: inline-start;
 }
