@@ -58,7 +58,7 @@ function displayBusiness(business) {
     let name = document.createElement('h3');
     let image = document.createElement('img');
     let div = document.createElement('div');
-    let slogan = document.createElement('h4');
+    let slogan = document.createElement('p');
     let ul = document.createElement('ul');
     let address = document.createElement('li');
     let phone = document.createElement('li');
