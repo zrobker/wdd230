@@ -1,8 +1,7 @@
 const lastVisitDisplay = document.querySelector(".lastvisit");
 var timestamp = Date.now();
 var lastVisit = Number(window.localStorage.getItem("last_visit"));
-
-if (lastVisit != null) {
+if (lastVisit == null) {
     lastVisit = timestamp;
     lastVisitDisplay.textContent = 0;
 } else {
@@ -12,9 +11,8 @@ if (lastVisit != null) {
 
 localStorage.setItem("last_visit", timestamp);
 
-
-
 function convert_to_day(timestamp,lastVisit) {
     const days = ((((timestamp-lastVisit)/1000)/3600)/24).toFixed(0);
+    console.log(days);
     return days;
 }
