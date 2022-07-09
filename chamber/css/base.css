@@ -487,6 +487,11 @@ form label.top input:required:valid, form label.top textarea:required:valid{
     border-radius: 5px;
 }
 
+.info ul {
+    padding-left: 0;
+    list-style: none;
+}
+
 .info section{
     margin-bottom: 3em;
 }
