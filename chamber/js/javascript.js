@@ -53,3 +53,5 @@ function showGrid() {
 	display.classList.add("grid");
 	display.classList.remove("list");
 }
+
+

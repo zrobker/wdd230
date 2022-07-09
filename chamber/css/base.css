@@ -130,12 +130,21 @@ nav ul li a {
 
 /* ------------------------------------------------------- */
 
-/* DATE */
+/* DATE & BANNER */
 
 .date {
     text-align: center;
     margin: .5em;
     padding: .5em;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner a {
+    color: black;
+
 }
 
 /* ------------------------------------------------------- */
