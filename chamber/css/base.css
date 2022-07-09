@@ -341,6 +341,10 @@ footer {
     font-size: .7em;
 }
 
+.locationpin {
+    width: 20px;
+}
+
 /* ------------------------------------------------------- */
 
 /* POSITIONING */
