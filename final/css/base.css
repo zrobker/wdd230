@@ -12,12 +12,43 @@ main {
     padding: .5em;
 }
 
-.temple {
+.overlay {
+    position:absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: black;
+    transition: 1s ease;
+    opacity:0;
+    height: 100%;
+  }
+
+#welcome {
+    width: 100%;
+    font-size: 1.5em;
+    /* top: 0%; */
+    bottom: -8%;
+    padding-top: .5em;
+}
+
+#joinbutton {
+    background: none;
+    width: 100%;
+    top: 15%;
+    left: 0%;
+}
+/* fade in the overlay title */
+#call:hover .overlay {
+  opacity: 1;
+}
+
+.hotel {
     width: 100%;
 }
 
 #call {
     background-color: white;
+    position: relative;
+    width: 100%;
 }
 
 #weather {
