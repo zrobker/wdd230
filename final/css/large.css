@@ -51,8 +51,33 @@
         grid-row: 2/3;
     }
 
+    #reservation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
 
+    form {
+        padding: 3em;
+    }
 
+    .rightimgs {
+        display: block;
+        width: 130%;
+        grid-column: 2/3;
+        grid-row: 1/4;
+        margin-left: -210px;
+        z-index: 0;
+        padding: 2em;
+    }
+
+    .rightimgs img:nth-child(1) {
+        border-radius: 0 10px 0 0;
+    }
+    
+    .rightimgs img:nth-child(4) {
+        border-radius: 0 0 10px 0;
+    }
 
     .hotelimg{
         width: 100%;

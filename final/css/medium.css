@@ -25,6 +25,9 @@
         
         z-index: 0;
     }
+    .form {
+        width: 75%;
+    }
 
     .overlay {
         position:absolute;
