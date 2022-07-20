@@ -7,48 +7,85 @@
     <meta name="description" content="Home Page The Temple Inn & Suites for Zach Robker in WDD 230: Web Frontend 
     Development at Brigham Young University - Idaho">
     <title>The Temple Inn & Suites | Site Home</title>
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <script src="js/weatherapi.js" defer></script>
+    <script src="js/nav.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <h1>The Temple Inn & Suites</h1>
+    <header id="clearfix">
+        <img class="logo" src="images/logo.png" alt="logo of building">
+        <h1 class="company">The Temple Inn & Suites</h1>
         <nav>
             <ul class="navigation">
                 <li> <button onclick="toggleMenu()"> Menu</button></li>
-                <li><a href="temple.html" >Temple</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="temple.html" >Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li class="linklogo"><a  href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a></li>
+                <li class="linklogo"><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a></li>
             </ul>
         </nav>
-        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
-        <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
     </header>
     <main id="layout">
-        <div id="call">
-            <img class="hotel"src="images/hotel.avif" alt="hotel room">
+        <div id="call" class="box">
+            <img class="hotelimg"src="images/hotel.avif" alt="hotel room">
             <h2 class="overlay" id="welcome" >Have a hotel reservation?</h2>
-            <a href="reservation.html" class="overlay" id="joinbutton"><h3 class="button">Reserve one!</h3></a>
+            <a href="reservation.html" class="overlay" id="joinbutton"><h3 class="button">Reserve Now!</h3></a>
         </div>
-        <div id="announcement">
-            <h2>announcement</h2>
+        <div id="announcement" class="box">
+            <h2>New to family history?</h2>
+            <p>Each of our locations offers family search centers that support family search and ordinance work! More infomation Here!</p>
         </div>
-        <div id="weather">
+        <div id="weather" class="box">
             <h2>Weather</h2>
+            <img class="weatherimg" id="weather-icon" src="images/weather.png" alt="picture of weather">
+            <figcaption></figcaption>
+            <div class="weatherinfo">
+                <p >Temperature: <span class="current-temp"></span>&#176;F</p>
+                <p >Wind Speed: <span class="current-wind"></span>mph</p>
+                <p >Humidity: <span class="current-humid"></span>%</p>
+            </div>
+            <p class="fineprint">Location: Columbia SC, USA</p>
         </div>
-        <div id="maintemple">
-            <h2>Main Temple</h2>
+        <div id="maintemple" class="box">
+            <h2>Columbia South Carolina, United States</h2>
+            <ul id="temple_info">
+                <li>The Columbia South Carolina Temple is the 62nd operating temple of the Church of Jesus Christ of Latter-day Saints. 
+                    The temple was announced 11 September 1998 and was dedicated 16 October 1999.</li>
+                <li><strong>Address:</strong> 2905 Trotter Rd
+                    Hopkins SC 29061-9573
+                    United States</li>
+                <li><strong>Phone:</strong>(1) 803-647-9472</li>
+            </ul>
+            <img class="temple_pic" src="images/columbia_temple.jpeg" alt="columbia temple">
         </div>
-        <div id="temples">
-            <h2>temples</h2>
+        <div id="temples" class="box">
+            <h2>Spotlight Temples</h2>
+            <section class="spotlights">
+                <article>
+                    <div class="spotlightcard"></div>
+                </article>
+            </section>
         </div>
     </main>
     <footer>
-
+        <div class="foot">
+            <img src="images/logo.png" class="logo" alt="logo of building">
+            <h3>The Temple Inn & Suites</h3>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <a class="location" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977258,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+                <img class="locationpin" src="images/map.png" alt="map pin icon">Location Map</a>
+            <p>info@TempleInnSuites.com</p>
+            <p>1-800-3290-3200</p>
+        </div>
+        <div class="fineprint">
+            <p>&copy;<span id="year">year</span>The Temple Inn & Suites | Zachary Robker | WDD 230 Final</p>
+            <p>Last Updated: <span id="date">date</span></p>
+        </div>
     </footer>
 </body>
 </html>

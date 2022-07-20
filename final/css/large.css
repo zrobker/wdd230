@@ -3,6 +3,63 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr .3fr 1fr;
     }
+    .company {
+        font-size: 2.3em;
+        margin-left: 0;
+    }
+
+    header {
+        grid-template-columns: .5fr 1fr 1fr;
+    }
+
+    .navigation {
+        grid-column: 3/4;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: auto;
+        margin-right: 3.5em;
+    }
+
+    .navigation li {
+        margin: auto;
+    }
+
+    .navigation li:nth-of-type(2) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .navigation li:nth-of-type(3) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .navigation li:nth-of-type(4) {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .navigation li:nth-of-type(5) {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .navigation li:nth-of-type(6) {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .navigation li:nth-of-type(7) {
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+
+
+
+
+    .hotelimg{
+        width: 100%;
+    }
+    #welcome{
+        width: 100%;
+    }
 
     #call {
         grid-column: 1/3;
@@ -28,4 +85,6 @@
         grid-column: 2/5;
         grid-row: 3/4;
     }
+
+    
 }

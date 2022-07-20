@@ -1,68 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@500&display=swap');
+
 body {
+    font-family: "Raleway", sans-serif;
     display: block;
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Roboto Slab", serif;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header {
+    margin: 1rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.logo {
+    width: 20%;
+    float:left;
+    max-width: 35%;
+    border: 2px black solid;
+    border-radius: 1em;
+    margin-top: .5em;
+    margin-right: .3rem;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    margin: .3em;
+}
+
+/* NAVIGATION */
+
+.linklogo {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navigation {
+    text-align: center;
+    padding: 0;
+    border-radius: 1em;
+}
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+    --d: 75%;
+    border-radius: 1em;
+}
+nav ul {
+    background-color: #E5DDDC; 
+}
+
+nav ul li a {
+    
+	display: block;
+	color: black;
+	padding: 0.75rem;
+	font-size: 0.95rem;
+	transition: 0.5s;
+}
+
+/* drop down menu */
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav button {
+    border: none;
+    background-color: #E5DDDC;
+    border-radius: 1em;
+    padding: 0.75rem;
+    font-size: 0.95rem;
+} 
+
+nav button:hover {
+    background-color: #bbb;
+    color: #36454f;
+    --d: 75%;
+    border-radius: 1em;
+    width: 100%;
+}
+
+.button {
+    background-color: #71b2f7;
+    color: black;
+    padding: 15px;
+    border-radius: 1em;
+    max-width: 75%;
+    margin: 5% 15%;
+    border: 2px black solid;
+    
+}
+
+.button:hover {
+    background-color: #3083dc;
 }
 
 main {
     margin: 0 auto;
     max-width: 960px;
-    text-align: center;
     display: grid; 
     grid-gap: 1em;
     background-color: #3083dc;
-    padding: .5em;
+    padding: 1em;
+    border-radius: 10px;
 }
 
-.overlay {
-    position:absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
+img {
+    width: 100%;
+}
+
+#temple_info li {
+    margin-top: .5em;
+}
+
+.temple_pic {
+    width: 80%;
+    /* float: right; */
+}
+
+.hotelimg {
+    width: 100%;
+    /* display: block; */
+    border-radius: 10px 10px 0 0;
+}
+
+.weatherimg {
+    width: 22%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------- */
+
+/* FOOTER */
+
+footer {
+    text-align: right;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.foot {
+    background-color: #bbb;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.fineprint {
+    text-align: center;
+    font-size: .7em;
+}
+
+.locationpin {
+    width: 20px;
+}
+
+.location {
     color: black;
-    transition: 1s ease;
-    opacity:0;
-    height: 100%;
-  }
+}
+/* ------------------------------------------------------- */
 
-#welcome {
-    width: 100%;
-    font-size: 1.5em;
-    /* top: 0%; */
-    bottom: -8%;
-    padding-top: .5em;
-}
-
-#joinbutton {
-    background: none;
-    width: 100%;
-    top: 15%;
-    left: 0%;
-}
-/* fade in the overlay title */
-#call:hover .overlay {
-  opacity: 1;
-}
-
-.hotel {
-    width: 100%;
-}
-
-#call {
-    background-color: white;
-    position: relative;
-    width: 100%;
-}
-
-#weather {
-    background-color: white;
-}
-
-#maintemple {
-    background-color: white;
-}
-
-#announcement {
-    background-color: white;
-}
-
-#temples {
-    background-color: white;
-}
