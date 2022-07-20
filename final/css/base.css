@@ -190,3 +190,9 @@ footer {
 }
 /* ------------------------------------------------------- */
 
+.cards section {
+    margin: auto;
+    padding: .5em;
+    text-align: center;
+    background-color: pink;
+}
