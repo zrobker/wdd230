@@ -7,9 +7,9 @@
         "email": "columbiasctemple@lds.org",
         "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
         "history": "The Columbia South Carolina Temple is the 62nd operating temple of the Church of Jesus Christ of Latter-day Saints. The temple was announced 11 September 1998 and was dedicated 16 October 1999.",
-        "ordinance-schedule": "Tuesday-Saturday 9:00am-5:00pm by appointment only",
-        "session-schedule": "Tuesday-Saturday every 2 hours starting at 10:00am",
-        "closure-schedule": "Wednesday, 23 November 2022, Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022",
+        "ordinance": "Tuesday-Saturday 9:00am-5:00pm by appointment only",
+        "session": "Tuesday-Saturday every 2 hours starting at 10:00am",
+        "closure": "Wednesday, 23 November 2022, Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022",
         "imageurl": "images/columbia_temple.jpeg"
       },
       {
@@ -19,9 +19,9 @@
         "email": "campinasbraziltemple@lds.org",
         "services": "Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby",
         "history": "The Campinas Brazil Temple was the fourth temple built in Brazil and the second built in the state of São Paulo, following the São Paulo Brazil Temple (1978). The temple was announced 3 April 1997 and was dedicated 17 May 2002.",
-        "ordinance-schedule": "Tuesday-Saturday 10:00am-6:00pm by appointment only",
-        "session-schedule": "Tuesday-Saturday every 2 hours starting at 12:00am",
-        "closure-schedule": "Monday, 19 September 2022 - Monday, 28 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022",
+        "ordinance": "Tuesday-Saturday 10:00am-6:00pm by appointment only",
+        "session": "Tuesday-Saturday every 2 hours starting at 12:00am",
+        "closure": "Monday, 19 September 2022 - Monday, 28 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022",
         "imageurl": "images/campinasbraziltemple.jpeg"
       },
       {
@@ -31,9 +31,9 @@
         "email": "mexicocitytemple@lds.org",
         "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
         "history": "Ever since endowments were first given in Spanish in 1945 in the Mesa Arizona Temple, faithful Mexican Saints looked forward with anticipation to the time when they might be blessed with a temple in their own country. The temple was announced 3 April 1976 and was dedicated 2 December 1983.",
-        "ordinance-schedule": "Tuesday-Saturday 9:00am-8:00pm by appointment only",
-        "session-schedule": "Tuesday-Saturday every 2 hours starting at 9:00am",
-        "closure-schedule": "Saturday, 1 October 2022, Saturday, 24 December 2022 - Sunday, 25 December 2022, Saturday, 31 December 2022",
+        "ordinance": "Tuesday-Saturday 9:00am-8:00pm by appointment only",
+        "session": "Tuesday-Saturday every 2 hours starting at 9:00am",
+        "closure": "Saturday, 1 October 2022, Saturday, 24 December 2022 - Sunday, 25 December 2022, Saturday, 31 December 2022",
         "imageurl": "images/mexico_city_temple.jpg"
       },
       {
@@ -43,9 +43,9 @@
         "email": "washingtondctemple@lds.org",
         "services": "Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby",
         "history": "During the first week of the temple open house, government officials and diplomats from around the world were taken on special tours through the building. The open house continued for seven weeks and over 750,000 people went through the temple. The temple was announced 15 November 1968 and was dedicated 19 November 1974.",
-        "ordinance-schedule": "Tuesday-Saturday 7:00am-10:00pm by appointment only",
-        "session-schedule": "Tuesday-Saturday every 2 hours starting at 8:00am",
-        "closure-schedule": "Currently closed until 14 August 2022 for Renovations",
+        "ordinance": "Tuesday-Saturday 7:00am-10:00pm by appointment only",
+        "session": "Tuesday-Saturday every 2 hours starting at 8:00am",
+        "closure": "Currently closed until 14 August 2022 for Renovations",
         "imageurl": "images/washington_dc_temple.jpeg"
       }
     ]
