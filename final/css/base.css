@@ -301,3 +301,14 @@ form label.top input:required:valid, form label.top textarea:required:valid, for
 }
 
 /* ------------------------------------------------------- */
+
+#thanks {
+    background-color:white;
+    border-radius: 10px;
+}
+
+.thanksimg {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
