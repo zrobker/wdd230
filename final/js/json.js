@@ -32,9 +32,9 @@ function displayTemples(temple) {
     phone.innerHTML = temple.phone;
     email.innerHTML = temple.email;
     services.innerHTML = temple.services;
-    ordinance.innerHTML = temple.ordinance-schedule;
-    session.innerHTML = temple.session-schedule;
-    closure.innerHTML = temple.closure-schedule;
+    ordinance.innerHTML = temple.ordinance;
+    session.innerHTML = temple.session;
+    closure.innerHTML = temple.closure;
 
     image.setAttribute('src', temple.imageurl);
     image.setAttribute('alt', temple.name);
