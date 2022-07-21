@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Page The Temple Inn & Suites for Zach Robker in WDD 230: Web Frontend 
+    Development at Brigham Young University - Idaho">
+    <title>The Temple Inn & Suites | Contact Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/json.js" defer></script>
+    <script src="js/weatherapi.js" defer></script>
+    <script src="js/nav.js" defer></script>
+</head>
+<body>
+    <header id="clearfix">
+        <img class="logo" src="images/logo.png" alt="logo of building">
+        <h1 class="company">The Temple Inn & Suites</h1>
+        <nav>
+            <ul class="navigation">
+                <li> <button onclick="toggleMenu()"> Menu</button></li>
+                <li><a href="temple.html" >Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li class="linklogo"><a  href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a></li>
+                <li class="linklogo"><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contact">
+        <form method="get" action="thankyou2.html" class="form">
+            <fieldset>
+                <legend>Send us a message</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Message<textarea name="businessDescription" rows="8" required></textarea></label>
+            </fieldset>
+            
+            <label class="hidden"><input type="hidden" name="dateTime"><span id="date2"></span></label>
+            <Input type="submit" name="submitBtn" value="Conctact Us" class="submitBtn">
+        </form>
+        <div class="info">
+            <h2>Our Information</h2>
+            <section>
+                <p>The Temple Inn & Suites</p>
+                <ul>
+                    <li>4800 Montgomery Ln #300, Bethesda, MD 20814</li>
+                    <li>info@TempleInnSuites.com</li>
+                    <li>1-800-3290-3200</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <img src="images/logo.png" class="logo" alt="logo of building">
+            <h3>The Temple Inn & Suites</h3>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <a class="location" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977258,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+                <img class="locationpin" src="images/map.png" alt="map pin icon">Location Map</a>
+            <p>info@TempleInnSuites.com</p>
+            <p>1-800-3290-3200</p>
+        </div>
+        <div class="fineprint">
+            <p>&copy;<span id="year">year</span>The Temple Inn & Suites | Zachary Robker | WDD 230 Final</p>
+            <p>Last Updated: <span id="date">date</span></p>
+        </div>
+    </footer>
+</body>
+</html>

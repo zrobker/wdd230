@@ -341,3 +341,14 @@ form label.top input:required:valid, form label.top textarea:required:valid, for
 #reception div {
     padding: 1em;
 }
+
+/* ------------------------------------------------------- */
+
+#contact form{
+    width: 80%;
+}
+
+.info {
+    background-color: white;
+    border-radius: 10px;
+}
