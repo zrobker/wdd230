@@ -337,3 +337,7 @@ form label.top input:required:valid, form label.top textarea:required:valid, for
 #missionary img {
     width: 75%;
 }
+
+#reception div {
+    padding: 1em;
+}

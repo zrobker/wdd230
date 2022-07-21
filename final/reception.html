@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reception Page The Temple Inn & Suites for Zach Robker in WDD 230: Web Frontend 
+    Development at Brigham Young University - Idaho">
+    <title>The Temple Inn & Suites | Reception Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/json.js" defer></script>
+    <script src="js/weatherapi.js" defer></script>
+    <script src="js/nav.js" defer></script>
+</head>
+<body>
+    <header id="clearfix">
+        <img class="logo" src="images/logo.png" alt="logo of building">
+        <h1 class="company">The Temple Inn & Suites</h1>
+        <nav>
+            <ul class="navigation">
+                <li> <button onclick="toggleMenu()"> Menu</button></li>
+                <li><a href="temple.html" >Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="linklogo"><a  href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a></li>
+                <li class="linklogo"><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="reception">
+        <div class="box">
+            <a href="services.html">back</a>
+            <h2>Receptions</h2>
+            <p>We offer great event space close to temple grounds and we are dedicated to helping you make your dreams become realities.
+                 Multiple service packages are available depending on what you want for your event.
+                Some services offered are: Customizable catering options, event staff featuring a full-time Event Coordinator and Executive Chef, 
+                DJ services, Set up/Tear down, Janitorial service, and more. For specifics and availability contact us <a href="contact.html">HERE</a>.</p>
+            <div class="receptionimg">
+                <img src="images/reception.jpg" alt="reception hall">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <img src="images/logo.png" class="logo" alt="logo of building">
+            <h3>The Temple Inn & Suites</h3>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <a class="location" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977258,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+                <img class="locationpin" src="images/map.png" alt="map pin icon">Location Map</a>
+            <p>info@TempleInnSuites.com</p>
+            <p>1-800-3290-3200</p>
+        </div>
+        <div class="fineprint">
+            <p>&copy;<span id="year">year</span>The Temple Inn & Suites | Zachary Robker | WDD 230 Final</p>
+            <p>Last Updated: <span id="date">date</span></p>
+        </div>
+    </footer>
+</body>
+</html>
