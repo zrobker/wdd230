@@ -330,3 +330,10 @@ form label.top input:required:valid, form label.top textarea:required:valid, for
 /* .services {
     background-color: white;
 } */
+#missionary div {
+    padding: 2em;
+}
+
+#missionary img {
+    width: 75%;
+}

@@ -139,5 +139,11 @@
         grid-row: 3/4;
     }
 
-    
+    .roomimgs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .roomimgs img{
+        margin: auto;
+    }
 }

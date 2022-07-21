@@ -182,4 +182,15 @@
         grid-column: 1/3;
         grid-row: 4/5;
     }
+
+    #services .box{
+        margin: 1;
+        padding: 2em;
+    }
+
+    #services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .5fr 1fr;
+    }
 }
