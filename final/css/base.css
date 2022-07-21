@@ -160,6 +160,18 @@ img {
     border-radius: 10px;
 }
 
+#temples img:hover {
+    box-shadow: 0 0 20px black;
+}
+
+#temples img{
+    margin-bottom: 1em;
+}
+
+#temples div:nth-child(2),#temples div:nth-child(3) {
+    display: none;
+}
+
 /* ------------------------------------------------------- */
 
 /* FOOTER */
@@ -312,3 +324,9 @@ form label.top input:required:valid, form label.top textarea:required:valid, for
     max-height: 550px;
     object-fit: cover;
 }
+
+/* ------------------------------------------------------- */
+
+/* .services {
+    background-color: white;
+} */
